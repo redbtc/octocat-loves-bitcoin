@@ -4,7 +4,7 @@ This repo is a demo/playground for an experimental mechanic which enables projec
 
 ## How it works
 
-- When someone creates a new issue in the repo, it automatically gets a new comment with "support the issue" info and "Pay with BTCPay" button
+- When someone creates a new issue in the repo, it automatically gets a new comment with the "support the issue" info and "Pay with BTCPay" button
 - When the pay button is pushed and a payment is made (as a GitHub user or anonymously), it triggers a series of actions as per the following rules:
   - update the "support issue" comment with the backer username (if not anonymous)
     - the position depends on the total amount donated by the backer on the issue
@@ -13,9 +13,17 @@ This repo is a demo/playground for an experimental mechanic which enables projec
   - add "priority" label to the issue, if the total amount donated by all backers on the issue is >=0.001 BTC
   - trigger the actions of the common Red BTC - wide donation logic of the "Become a backer" button on <a href="https://redbtc.org/">Red BTC website</a> and <a href="https://github.com/redbtc/">Red BTC repos</a> (including this one)
 
+## Have ideas?
+
+If you have an idea, <a href="https://github.com/redbtc/octocat-loves-btc/issues">post it here</a>.
+
+## Adding this to repos
+
+If you want to participate in the experiment and add this mechanic to your repo(s), <a href="https://github.com/redbtc/octocat-loves-btc/issues">create an issue</a> with a couple words about it.
+
 ## Is it open source?
 
-It's built with the open source <a href="https://redbtc.org/">Red BTC stack</a> & <a href="https://github.com/redbtc/node-red-contrib-github-plus">node-red-contrib-github-plus nodeset</a>. The flow implementing the mechanic will be open-sourced after trying it on a few projects. If you want to participate in the experiment and add this mechanic to your repo(s), <a href="https://github.com/redbtc/octocat-loves-btc/issues">create an issue</a>.
+It's built with the open source <a href="https://redbtc.org/">Red BTC stack</a> & <a href="https://github.com/redbtc/node-red-contrib-github-plus">node-red-contrib-github-plus nodeset</a>. The flow implementing the mechanic will be open-sourced after trying it on a few projects. 
 
 ## Backers 💝
 
