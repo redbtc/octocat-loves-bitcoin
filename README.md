@@ -9,7 +9,7 @@ This repo is a demo/playground for an experimental mechanic which enables projec
   - update the "support issue" comment with the backer username (if not anonymous)
     - the position depends on the total amount donated by the backer on the issue
     - if the total backer-issue amount is >=0.001 BTC, then the backer's avatar is also added (the avatar sizes differ depending on the amount)
-  - post a "@username (or anonymous) donated ฿" comment on the issue if the donation amount is >=0.0005 BTC (the templates and image sets differ depending on the amount)
+  - post a "@username (or anonymous) donated ฿" comment on the issue if the donation amount is >=0.0005 BTC. The templates, image sets and the number of ฿ symbols differ depending on the amount. The exact amount is not published to not harm the privacy.
   - add "priority" label to the issue, if the total amount donated by all backers on the issue is >=0.001 BTC
   - trigger the actions of the common Red BTC - wide donation logic of the "Become a backer" button on <a href="https://redbtc.org/">Red BTC website</a> and <a href="https://github.com/redbtc/">Red BTC repos</a> (including this one)
 
