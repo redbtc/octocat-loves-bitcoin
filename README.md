@@ -1,4 +1,4 @@
-# Octocat ❤ BTC
+# Octocat ❤ Bitcoin
 
 This repo is a demo/playground for an experimental mechanic which enables project backers to be a noticeable part of the development process/community and be immortalized in the project history together with the developers. This might potentially be a great booster for open-source development.
 
