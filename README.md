@@ -4,7 +4,7 @@ This repo is a demo/playground for an experimental mechanic for GitHub repositor
 
 ## How it works
 
-- When someone creates a new issue in the repo, it automatically gets a new comment with the "support the issue" info and "Pay with BTCPay" button
+- When someone creates a new [issue in the repo](https://github.com/redbtc/octocat-loves-bitcoin/issues), it automatically gets a new comment with the "support the issue" info and "Pay with BTCPay" button
 - When the pay button is pushed and a payment is made (as a GitHub user or anonymously), it triggers a series of actions as per the following rules:
   - update the "support issue" comment with the backer username (if not anonymous)
     - the position depends on the total amount donated by the backer on the issue
